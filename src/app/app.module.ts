@@ -9,6 +9,8 @@ import { NeonatalWeightGainCalculatorComponent } from './neonatal-weight-gain-ca
 import { ChronologicalAgeCalculatorComponent } from './chronological-age-calculator/chronological-age-calculator.component';
 import { CorrectedAgeCalculatorComponent } from './corrected-age-calculator/corrected-age-calculator.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { StarterComponent } from './starter/starter.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     NeonatalWeightGainCalculatorComponent,
     ChronologicalAgeCalculatorComponent,
     CorrectedAgeCalculatorComponent,
-    DashboardComponent
+    DashboardComponent,
+    StarterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
